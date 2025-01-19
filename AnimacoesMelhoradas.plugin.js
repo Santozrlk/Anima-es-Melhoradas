@@ -14,24 +14,24 @@
 const config = {
   info: {
     name: 'Animações melhoradas',
-    version: '1.0.1',
+    version: '1.0.2',
     description: 'Melhora toda a sua experiência no Discord. Adiciona animações de alternância altamente personalizáveis entre guildas, canais, etc. Apresenta novas animações de revelação de mensagens suaves, juntamente com animações pop-out e muito mais.'
   },
   changelog: [
-    {
+  /**{
       type: 'improved',
       title: 'Melhorias',
       items: [
         'Removido a depedencia: ZeresPluginLibrary.'
       ]
-    },
+    },*/
     {
       type: 'fixed',
       title: 'Correções',
       items: [
-        'Corrigido o salto de posição de rolagem do bate-papo ao mudar de canal.'
+        'Corrigido erro ao tentar mudar animação de guildas.'
       ]
-    },
+    } 
     {
       type: 'progress',
       title: 'Fique ligado',
