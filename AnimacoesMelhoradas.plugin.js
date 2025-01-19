@@ -3,7 +3,7 @@
  * @author santozrx
  * @authorLink https://github.com/Santozrlk
  * @invite AsVRsJarMM
- * @version 1.0.3
+ * @version 1.1.3
  * @description Melhora toda a sua experiência no Discord. Adiciona animações de alternância altamente personalizáveis entre guildas, canais, etc. Apresenta novas animações de revelação de mensagens suaves, juntamente com animações pop-out e muito mais.
  * @website https://github.com/Santozrlk
  * @source https://github.com/Santozrlk/Anima-es-Melhoradas/blob/main/AnimacoesMelhoradas.plugin.js
@@ -14,7 +14,7 @@
 const config = {
   info: {
     name: 'Animações melhoradas',
-    version: '1.0.3',
+    version: '1.1.3',
     description: 'Melhora toda a sua experiência no Discord. Adiciona animações de alternância altamente personalizáveis entre guildas, canais, etc. Apresenta novas animações de revelação de mensagens suaves, juntamente com animações pop-out e muito mais.'
   },
   changelog: [
@@ -29,8 +29,8 @@ const config = {
       type: 'fixed',
       title: 'Correções',
       items: [
-        'Corrigido erro ao tentar mudar animação de guildas.'
-        'Correção ao carregar o plugin e dar erro em ChangeLogs.'
+        "Corrigido erro ao tentar mudar animação de guildas.",
+        "Correção ao carregar o plugin e dar erro em ChangeLogs."
       ]
     },
     {
